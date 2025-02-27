@@ -14,7 +14,8 @@ public class Main {
             System.out.println("6. Display Data");
             System.out.println("7. Update Data");
             System.out.println("8. Delete Data");
-            System.out.println("9. Exit");
+            System.out.println("9. Delete DB");
+            System.out.println("10. Exit");
             System.out.print("Enter your choice: ");
             
             int choice;
@@ -53,6 +54,9 @@ public class Main {
                     CrudOperations.deleteData();
                     break;
                 case 9:
+                    CrudOperations.deleteDB();
+                    break;
+                case 10:
                     System.out.println("Exiting program...");
                     scanner.close();
                     System.exit(0);
