@@ -1,0 +1,75 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20210814/pngtree-blue-purple-simple-gradient-background-image_760572.jpg') no-repeat center center/cover;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    color: white;
+    background: linear-gradient(to right, #3498db, #e91e63);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    border:1px solid black;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: linear-gradient(to right, #3498db, #e91e63);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-position 1.2s ease-in-out, background-size 1.2s ease-in-out;
+    font-weight: bold;
+    
+}
+
+button:hover {
+    background: linear-gradient(to right, #e91e63, #3498db);
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}

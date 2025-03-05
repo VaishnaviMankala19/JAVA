@@ -1,3 +1,46 @@
-* .class
-*.jar
+# Ignore compiled class files
+*.class
+
+# Ignore IDE-specific files (Eclipse, IntelliJ, VSCode)
+*.classpath
+*.project
+*.settings/
+.idea/
 .vscode/
+
+# Ignore build directories
+target/
+build/
+
+# Ignore Maven and Gradle files
+*.war
+*.jar
+*.ear
+.mvn/
+.gradle/
+!src/main/resources/
+
+# Ignore Tomcat, Jetty, or other server logs
+logs/
+*.log
+*.out
+*.err
+
+# Ignore dependency caches
+*.iml
+/.m2/
+/.gradle/
+/out/
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore environment files
+.env
+
+# Ignore node_modules (if using any frontend dependencies)
+node_modules/
+package-lock.json
+yarn.lock
+/.metadata/

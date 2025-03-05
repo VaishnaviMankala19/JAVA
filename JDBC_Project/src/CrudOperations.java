@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class CrudOperations {
 
     static Scanner scanner = new Scanner(System.in);
-    static String currentDB = "Student";  
+    static String currentDB = "jdbc";  
 
     // Create Database
     public static void createDB() {
